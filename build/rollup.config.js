@@ -28,7 +28,7 @@ export default {
     vue({
       preprocessStyles: true
     }),
-    css({ output: 'sim-ui.css' }),
+    css({ output: 'lin-component.css' }),
   ],
   external: ['vue']
 };

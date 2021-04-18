@@ -1,5 +1,5 @@
 {
-  "name": "sim-ui",
+  "name": "lin-component",
   "version": "1.0.0",
   "private": false,
   "author": "い 狂奔的蜗牛",
@@ -11,12 +11,12 @@
     "build:esm": "rollup --config build/rollup.esm.config.js",
     "build:umd": "rollup --config build/rollup.umd.config.js",
     "clean": "rimraf ./dist",
-    "prepublishOnly": "npm run lint && npm run test && npm run build",
+    "prepublishOnly": "npm run lint && npm run build",
     "test": "vue-cli-service test:unit",
     "test:watch": "vue-cli-service test:unit --watch"
   },
-  "main": "dist/sim-ui.umd.js",
-  "module": "dist/sim-ui.esm.js",
+  "main": "dist/lin-component.umd.js",
+  "module": "dist/lin-component.esm.js",
   "files": [
     "dist"
   ],
@@ -68,7 +68,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/llf137224350/sim-ui"
+    "url": "https://github.com/llf137224350/lin-component"
   },
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  }
 }
