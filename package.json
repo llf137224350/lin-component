@@ -1,6 +1,6 @@
 {
   "name": "lin-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "author": "い 狂奔的蜗牛",
   "scripts": {
@@ -21,38 +21,38 @@
     "dist"
   ],
   "dependencies": {
-    "core-js": "^3.6.5"
+    "core-js": "3.6.5"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^11.1.1",
-    "@rollup/plugin-typescript": "^8.1.1",
-    "@types/jest": "^24.0.19",
-    "@typescript-eslint/eslint-plugin": "^2.33.0",
-    "@typescript-eslint/parser": "^2.33.0",
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-typescript": "~4.5.0",
-    "@vue/cli-plugin-unit-jest": "^4.5.11",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "@vue/eslint-config-typescript": "^5.0.2",
+    "@rollup/plugin-node-resolve": "11.1.1",
+    "@rollup/plugin-typescript": "8.1.1",
+    "@types/jest": "24.0.19",
+    "@typescript-eslint/eslint-plugin": "2.33.0",
+    "@typescript-eslint/parser": "2.33.0",
+    "@vue/cli-plugin-babel": "4.5.0",
+    "@vue/cli-plugin-eslint": "4.5.0",
+    "@vue/cli-plugin-typescript": "4.5.0",
+    "@vue/cli-plugin-unit-jest": "4.5.11",
+    "@vue/cli-service": "4.5.0",
+    "@vue/compiler-sfc": "3.0.0",
+    "@vue/eslint-config-typescript": "5.0.2",
     "@vue/test-utils": "^2.0.0-0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0-0",
-    "husky": "^4.3.8",
-    "less": "^4.1.1",
-    "rimraf": "^3.0.2",
-    "rollup": "^2.38.5",
-    "rollup-plugin-css-only": "^3.1.0",
-    "rollup-plugin-exclude-dependencies-from-bundle": "^1.1.17",
-    "rollup-plugin-typescript2": "^0.29.0",
-    "rollup-plugin-vue": "^6.0.0",
-    "typescript": "~3.9.3",
-    "vue": "^3.0.0",
-    "vue-jest": "^5.0.0-alpha.8"
+    "eslint": "6.7.2",
+    "eslint-plugin-vue": "^7.0.0-beta.4",
+    "husky": "4.3.8",
+    "less": "4.1.1",
+    "rimraf": "3.0.2",
+    "rollup": "2.38.5",
+    "rollup-plugin-css-only": "3.1.0",
+    "rollup-plugin-exclude-dependencies-from-bundle": "1.1.17",
+    "rollup-plugin-typescript2": "0.29.0",
+    "rollup-plugin-vue": "6.0.0",
+    "typescript": "3.9.3",
+    "vue": "3.0.0",
+    "vue-jest": "5.0.0-alpha.8"
   },
   "peerDependencies": {
-    "vue": "^3.0.0"
+    "vue": "3.0.0"
   },
   "husky": {
     "hooks": {

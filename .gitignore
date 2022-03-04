@@ -2,4 +2,7 @@ node_modules
 .idea
 .vscode
 dist
+package-lock.json
+yarn-error.log
+yarn.lock
 
