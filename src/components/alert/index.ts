@@ -1,6 +1,8 @@
-import { render, createVNode } from 'vue';
+import {createVNode, render} from 'vue';
 import Alert from './Alert.vue';
+
 export type Model = 'normal' | 'countDown';
+
 export interface AlertProps {
   title: string;
   content: string;
@@ -8,6 +10,7 @@ export interface AlertProps {
   duration?: number;
   prefix?: string;
   postfix?: string;
+  btnText?: string;
   afterClose?: () => void;
 }
 
